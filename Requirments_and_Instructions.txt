@@ -1,0 +1,21 @@
+Created by Oded Azulay Automation Engineer
+1. Dependencies:
+2. Python 3.x
+3. Python requests module
+4. robotframework 5.0
+
+
+
+Instructions to install robotframework:
+1. Pip install robotframework
+
+
+Before running:
+   Open Markets_API_Test_Suite.robot --> on variables section replace values of ${email} and ${password} with a valid cryptowatch account credentials for api authorization
+
+Commands and tips in robot:
+1. Running all test suite from console --> robot --loglevel trace Markets_API_Test_Suite.robot
+2. Running a specific test case        --> robot --loglevel -t "1. API test case - Check number of markets on API response is according to limit param value" trace Markets_API_Test_Suite.robot
+3. Details logs and report will created automatically on source folder
+
+
