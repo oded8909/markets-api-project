@@ -15,7 +15,7 @@ Before running:
 
 Commands and tips in robot:
 1. Running all test suite from console --> robot --loglevel trace Markets_API_Test_Suite.robot
-2. Running a specific test case        --> robot --loglevel -t "1. API test case - Check number of markets on API response is according to limit param value" trace Markets_API_Test_Suite.robot
+2. Running a specific test case        --> robot --loglevel trace -t "1. API test case - Check number of markets on API response is according to limit param value" Markets_API_Test_Suite.robot
 3. Details logs and report will created automatically on source folder
 
 
