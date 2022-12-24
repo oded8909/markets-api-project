@@ -11,11 +11,11 @@ ${pair_to_retrieve}    btceur
 
 
 
+
 *** Test Cases ***
 1. API test case - Check number of markets on API response is according to limit param value
     [Documentation]    Testing https://api.cryptowat.ch/markets with limit parameter value
     lists_limit_api    url=${url}    email=${email}    password=${password}    limit=${limit}
-    Log    This is just a print for checking Jenkins trigger
 
 2. API test case - Check exchange retrievel according to specific exchange value
     [Documentation]    Testing https://api.cryptowat.ch/markets/:exchange and checking returned records according to exchange value
