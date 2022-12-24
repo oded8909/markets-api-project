@@ -5,9 +5,6 @@ Created by Oded Azulay Automation Engineer
 4. robotframework 5.0
 
 
-
-
-
 Instructions to install robotframework:
 1. Pip install robotframework
 
